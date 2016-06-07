@@ -1,0 +1,7 @@
+description = "Generate build matrix of OPAM/OCaml compilers"
+version = "%%VERSION%%"
+requires = ""
+archive(byte) = "dockerfile-opam.cma"
+archive(native) = "dockerfile-opam.cmxa"
+plugin(byte) = "dockerfile-opam.cma"
+plugin(native) = "dockerfile-opam.cmxs"

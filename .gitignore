@@ -1,0 +1,10 @@
+_build
+_test
+.*.swp
+tmp
+*~
+\.\#*
+\#*#
+*.install
+*.native
+*.byte
