@@ -1,6 +1,6 @@
 description = "Generate build matrix of OPAM/OCaml compilers"
 version = "%%VERSION%%"
-requires = ""
+requires = "dockerfile str sexplib"
 archive(byte) = "dockerfile-opam.cma"
 archive(native) = "dockerfile-opam.cmxa"
 plugin(byte) = "dockerfile-opam.cma"
