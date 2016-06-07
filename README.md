@@ -2,7 +2,14 @@ dockerfile-opam — Generate build matrix of OPAM/OCaml compilers
 -------------------------------------------------------------------------------
 %%VERSION%%
 
-dockerfile-opam is TODO
+dockerfile-opam is a library that generates [Dockerfiles](http://docker.com)
+to build various combinations of the [OPAM](https://opam.ocaml.org) package
+manager for various OS distributiosn and versions of the OCaml compiler.
+It uses the [ocaml-dockerfile](https://github.com/avsm/ocaml-dockerfile) to
+generate the Dockerfile descriptions.
+
+More information on how to use the library is available at
+[ocaml.io:Docker](https://ocaml.io/w/Docker).
 
 dockerfile-opam is distributed under the ISC license.
 
